@@ -4,9 +4,9 @@ use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
 // Include PHPMailer files
-require '/ideakarachi/PHPMailer/PHPMailer/src/Exception.php';
-require '/ideakarachi/PHPMailer/PHPMailer/src/PHPMailer.php';
-require '/ideakarachi/PHPMailer/PHPMailer/src/SMTP.php';
+require '/PHPMailer/PHPMailer/src/Exception.php';
+require '/PHPMailer/PHPMailer/src/PHPMailer.php';
+require '/PHPMailer/PHPMailer/src/SMTP.php';
 
 header('Content-Type: application/json'); // Set response type to JSON
 
