@@ -671,7 +671,7 @@
             submitHandler: function (form) {
                 $.ajax({
                     type: "POST",
-                    url: "sendsmtpmail.php",
+                    url: "https://hamzahabib29.github.io/contactformphpp/sendsmtpmail.php",
                     data: $(form).serialize(),
                     dataType: 'json', // Expecting JSON response
                     success: function (response) {
